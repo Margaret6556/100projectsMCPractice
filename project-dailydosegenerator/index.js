@@ -1,5 +1,8 @@
-document.querySelector("#btnGenerate").addEventListener("click", btnGenerate);
+const quoteDisplay = "Sending you love and healing vibes.";
 
-function btnGenerate() {
-  console.log("Clicked");
-}
+const quoteButton = document.querySelector("btnGenerate");
+const quoteDisplay = document.querySelector("quoteDisplay");
+
+quoteButton.addEventListener("click", function () {
+  return "Loading...";
+});
